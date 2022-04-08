@@ -1,0 +1,17 @@
+
+
+[centos7]
+192.168.88.250
+
+[ubuntu]
+192.168.88.252
+
+[debian]
+192.168.88.251
+
+[all:vars]
+ansible_connection=ssh
+ansible_user=alejo
+ansible_ssh_pass=test123
+ansible_sudo_pass=test123
+

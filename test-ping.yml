@@ -1,8 +1,6 @@
----
-  name: Test ping
-  become: no
-  hosts: all
-  tasks:
 
-    - name: Example from an Ansible Playbook
-      ansible.builtin.ping:
+-  name: Test ping
+   become: no
+   hosts: all
+   tasks:
+     - action: ping
